@@ -1,0 +1,9 @@
+from tutum/lamp
+
+MAINTAINER anan 
+
+RUN apt-get update 
+
+RUN apt-get install unzip
+
+COPY wordpress.zip /var/www/html
